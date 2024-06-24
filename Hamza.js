@@ -18,7 +18,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.listen(PORT, () => {
     console.log(`
-Powered by Hamza
+Powered by Ednut
 
  Server running on http://localhost:` + PORT)
 })

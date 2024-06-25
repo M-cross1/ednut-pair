@@ -56,11 +56,11 @@ router.get('/', async (req, res) => {
 					let data = fs.readFileSync(__dirname + `/temp/${id}/creds.json`);
 					await delay(800);
 				   let b64data = Buffer.from(data).toString('base64');
-				   let session = await Hamza.sendMessage(Hamza.user.id, { text: 'Byte;;;' + b64data });
+				   let session = await Hamza.sendMessage(Hamza.user.id, { text: 'ednut;;;' + b64data });
 	
 				   let Byte_Text = `
-*_Your have completed First step!_* \n *Repo Link:* https://github.com/HyHamza/BYTE-MD/ \n *WhatsApp Channel:* https://whatsapp.com/channel/0029VaNRcHSJP2199iMQ4W0l \n *Onwer Number:* wa.me/923072380380
-*Thanks for choosing BYTE-MD created by _Hamza_ (TalkDrove)*\n \t\t*Have a Nice Day*`
+Your have completed First step! \n Repo Link: https://github.com/Ednut001/Ednut-Md/ \n WhatsApp Channel: https://whatsapp.com/channel/0029VaZAY2P4yltOvNaegY2w \n Onwer Number: wa.me/2348102487241
+Thanks for choosing Ednut-md created by Ednut (🔥)\n \t\tHave a Nice Day`
 	 await Hamza.sendMessage(Hamza.user.id,{text:Byte_Text},{quoted:session})
 
 

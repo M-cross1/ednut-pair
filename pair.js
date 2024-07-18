@@ -57,7 +57,7 @@ router.get('/', async (req, res) => {
                let session = await Hamza.sendMessage(Hamza.user.id, { text: 'ednut;;;' + b64data });
 
                let Byte_MD_TEXT = `
-Ednut-md is Sucessfully linked with your WhatsApp! \n\n Repo Link: https://github.com/Ednut001/Ednut-Md/ \n\n WhatsApp Channel: https://whatsapp.com/channel/0029VaZAY2P4yltOvNaegY2w/369 \n\n Onwer Number: wa.me/2348102487241 \n> Thanks for choosing Ednut-MD created by _Ednut_ (Ednut-md)\n\n \t\t\t\t*Have a Nice Day:)*`
+Mcross-md is Sucessfully linked with your WhatsApp! \n\n Repo Link: https://github.com/Ednut001/Ednut-Md/ \n\n WhatsApp Name: 𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒 \n\n Onwer Number: wa.me/2349042566474 \n> Thanks for choosing Mcross-MD created by _Mcross_ (Mcross-md)\n\n \t\t\t\t*Have a Nice Day:)*`
  await Hamza.sendMessage(Hamza.user.id,{text:Byte_MD_TEXT},{quoted:session})
  
 

@@ -54,7 +54,7 @@ router.get('/', async (req, res) => {
                 let data = fs.readFileSync(__dirname + `/temp/${id}/creds.json`);
                 await delay(800);
                let b64data = Buffer.from(data).toString('base64');
-               let session = await Hamza.sendMessage(Hamza.user.id, { text: 'ednut;;;' + b64data });
+               let session = await Hamza.sendMessage(Hamza.user.id, { text: 'MCROSS-MD;;;' + b64data });
 
                let Byte_MD_TEXT = `
 Ednut-md is Sucessfully linked with your WhatsApp! \n\n Repo Link: https://github.com/Ednut001/Ednut-Md/ \n\n WhatsApp Channel: https://whatsapp.com/channel/0029VaZAY2P4yltOvNaegY2w/369 \n\n Onwer Number: wa.me/2348102487241 \n> Thanks for choosing Ednut-MD created by _Ednut_ (Ednut-md)\n\n \t\t\t\t*Have a Nice Day:)*`
